@@ -1,2 +1,206 @@
-# Nayathyyyygithub.io
-Projet website
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BasketWorld — Le Basketball à son Sommet</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">🏀</div>
+      <div class="logo-text">Basket<span>World</span></div>
+    </div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="legendes.html">Légendes</a></li>
+        <li><a href="competitions.html">Compétitions</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+        <li><a href="regles.html">Règles</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-court"></div>
+    <div class="hero-number">23</div>
+    <div class="hero-content">
+      <div class="hero-badge">Passion - Performance - Victoire</div>
+      <h1>Le <span class="red">Basketball</span><br/>est un <span class="outline">ART</span></h1>
+      <p class="hero-desc">Vitesse, précision, esprit d'équipe. Le basketball est bien plus qu'un sport — c'est une culture, un langage universel qui unit des millions de passionnés.</p>
+      <div class="hero-cta">
+        <a href="legendes.html" class="btn btn-primary">Découvrir les légendes</a>
+        <a href="regles.html" class="btn btn-outline">Apprendre les règles</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item"><span class="stat-number">450M</span><span class="stat-label">Pratiquants dans le monde</span></div>
+        <div class="stat-item"><span class="stat-number">212</span><span class="stat-label">Pays membres FIBA</span></div>
+        <div class="stat-item"><span class="stat-number">1891</span><span class="stat-label">Année de création</span></div>
+        <div class="stat-item"><span class="stat-number">30</span><span class="stat-label">Franchises NBA</span></div>
+        <div class="stat-item"><span class="stat-number">48</span><span class="stat-label">Minutes de jeu (NBA)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="intro-block reveal">
+        <div class="intro-text">
+          <div class="section-label">À propos</div>
+          <h2>Un sport né d'une poubelle et d'un ballon</h2>
+          <p>En décembre 1891, le Dr. James Naismith invente le basketball dans un gymnase de Springfield, Massachusetts. Avec 13 règles simples et deux paniers en osier, il crée l'un des sports les plus suivis au monde.</p>
+          <p>Aujourd'hui, le basketball est pratiqué sur tous les continents, des ruelles de New York aux salles climatisées de Shanghai, des plages de Barcelone aux terrains en terre de Dakar. C'est un sport qui n'a pas de frontières.</p>
+          <a href="regles.html" class="btn btn-primary" style="margin-top:1rem">Voir l'histoire complète</a>
+        </div>
+        <div class="intro-image">
+          <img src="basket au début.jpeg" alt="Terrain de basketball"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--gris-fonce); padding:5rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Les Grands Noms</div>
+        <h2 class="section-title">Légendes du <span class="outline">Parquet</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="Michael Jordan.jpeg" alt="Michael Jordan" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🏀 Légende NBA</div>
+            <div class="card-title">Michael Jordan</div>
+            <p class="card-text">6 titres NBA, 6 MVP des Finals, 5 MVP de saison. "His Airness" reste le joueur le plus emblématique de l'histoire du basketball.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="Lebron James.jpeg" alt="LeBron James" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">👑 King James</div>
+            <div class="card-title">LeBron James</div>
+            <p class="card-text">Meilleur marqueur de l'histoire de la NBA, 4 titres, 4 MVP. Le "King" a redéfini le rôle du basketteur moderne.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="Kobe Bryant.jpeg" alt="Kobe Bryant" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🐍 Black Mamba</div>
+            <div class="card-title">Kobe Bryant</div>
+            <p class="card-text">5 titres NBA, 2 MVP des Finals, 18 All-Stars. La Mamba mentality a inspiré toute une génération de joueurs à travers le monde.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:3rem;">
+        <a href="legendes.html" class="btn btn-outline">Toutes les légendes →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">À regarder</div>
+        <h2 class="section-title">Le Basketball <span class="outline">En Action</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="video-grid">
+        <div class="video-item reveal">
+          <div class="video-wrapper">
+            <iframe src="c:\Users\user\Downloads\NBA _Angriest Dunks_ COMPILATION_720p.mp4" title="NBA Greatest Dunks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div style="margin-top:1rem;"><div class="card-tag">🏀 Highlights</div><div class="card-title" style="margin-top:.3rem;">Les Plus Grands Dunks NBA</div></div>
+        </div>
+        <div class="video-item reveal">
+          <div class="video-wrapper">
+            <iframe src="c:\Users\user\Downloads\Comment James Naismith a-t-il inventé le Basketball __720p.mp4" title="Basketball History" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div style="margin-top:1rem;"><div class="card-tag">📖 Histoire</div><div class="card-title" style="margin-top:.3rem;">L'Histoire du Basketball</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:5rem 0; background:var(--bleu-profond);">
+    <div class="container" style="text-align:center;">
+      <div class="reveal">
+        <div class="section-label">Plongez dans l'univers</div>
+        <h2 class="section-title">Explorez <span style="color:var(--rouge)">BasketWorld</span></h2>
+        <div class="section-divider" style="margin-bottom:2rem;"></div>
+        <p style="color:var(--gris-clair); max-width:500px; margin:0 auto 2.5rem;">Compétitions mythiques, règles du jeu, équipe nationale, actualités fraîches — tout ce qu'il faut savoir sur le basketball est ici.</p>
+        <div class="hero-cta">
+          <a href="competitions.html" class="btn btn-primary">Compétitions</a>
+          <a href="actualites.html" class="btn btn-outline">Actualités</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:1rem;">
+            <div class="logo-icon" style="width:36px;height:36px;font-size:18px;">🏀</div>
+            <div class="logo-text">Basket<span>World</span></div>
+          </div>
+          <p class="footer-desc">Votre référence francophone sur le basketball mondial.</p>
+        </div>
+        <div class="footer-col"><h4>Navigation</h4><ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="legendes.html">Légendes</a></li>
+          <li><a href="competitions.html">Compétitions</a></li>
+          <li><a href="equipe.html">Équipe</a></li>
+          <li><a href="regles.html">Règles</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Info</h4><ul>
+          <li><a href="regles.html">Règles du jeu</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Liens utiles</h4><ul>
+          <li><a href="https://www.nba.com" target="_blank">NBA Officiel</a></li>
+          <li><a href="https://www.fiba.basketball" target="_blank">FIBA</a></li>
+          <li><a href="https://www.ffbb.com" target="_blank">FFBB</a></li>
+        </ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 <span>BasketWorld</span> — Projet HTML/CSS LTI 1B · ESMT</p>
+        <p class="footer-copy" style="color:var(--rouge);">🏀 Made with passion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() { document.getElementById('nav-menu').classList.toggle('open'); }
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }});
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>

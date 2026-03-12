@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Équipe — BasketWorld</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo"><div class="logo-icon">🏀</div><div class="logo-text">Basket<span>World</span></div></div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="legendes.html">Légendes</a></li>
+        <li><a href="competitions.html">Compétitions</a></li>
+        <li><a href="equipe.html" class="active">Équipe</a></li>
+        <li><a href="regles.html">Règles</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </header>
+
+  <section class="page-hero" data-title="ÉQUIPE">
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb"><a href="index.html">Accueil</a><span class="sep">›</span><span>Équipe</span></div>
+        <h1>Composition d'une <span style="color:var(--rouge)">Équipe</span></h1>
+        <p style="color:var(--gris-clair); margin-top:1rem; font-size:1.05rem; max-width:550px;">Cinq postes, cinq rôles distincts. Chaque joueur est une pièce essentielle d'une mécanique collective.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Architecture du jeu</div>
+        <h2 class="section-title">Les 5 <span class="outline">Postes</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="rules-grid">
+        <div class="rule-card reveal">
+          <div class="rule-icon">🎯</div><div class="rule-number">Poste 1</div>
+          <h3 class="rule-title">Meneur — Point Guard (PG)</h3>
+          <p class="rule-text">Le cerveau de l'équipe. Généralement le plus petit mais le plus habile balle en main. Il organise le jeu, distribue les passes et fixe le rythme. Exemples : Magic Johnson, Stephen Curry, Chris Paul.</p>
+        </div>
+        <div class="rule-card reveal">
+          <div class="rule-icon">⚡</div><div class="rule-number">Poste 2</div>
+          <h3 class="rule-title">Arrière — Shooting Guard (SG)</h3>
+          <p class="rule-text">Spécialiste du scoring extérieur. Rapide et adroit à mi-distance comme à 3 points. Exemples : Michael Jordan, Kobe Bryant, James Harden.</p>
+        </div>
+        <div class="rule-card reveal">
+          <div class="rule-icon">🔀</div><div class="rule-number">Poste 3</div>
+          <h3 class="rule-title">Ailier — Small Forward (SF)</h3>
+          <p class="rule-text">Le joueur le plus polyvalent. Capable de scorer de partout, de défendre plusieurs postes et d'initier des transitions. Exemples : LeBron James, Kevin Durant, Larry Bird.</p>
+        </div>
+        <div class="rule-card reveal">
+          <div class="rule-icon">💪</div><div class="rule-number">Poste 4</div>
+          <h3 class="rule-title">Ailier Fort — Power Forward (PF)</h3>
+          <p class="rule-text">Associe puissance physique et capacité de tir. Il travaille dans la raquette mais peut aussi s'écarter pour tirer à 3 points. Exemples : Tim Duncan, Dirk Nowitzki, Giannis.</p>
+        </div>
+        <div class="rule-card reveal">
+          <div class="rule-icon">🏰</div><div class="rule-number">Poste 5</div>
+          <h3 class="rule-title">Pivot — Center (C)</h3>
+          <p class="rule-text">Le gardien du cercle. Généralement le plus grand, il protège la raquette en défense et domine sous les paniers. Exemples : Wilt Chamberlain, Shaquille O'Neal, Hakeem Olajuwon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item"><span class="stat-number">5</span><span class="stat-label">Joueurs sur le terrain</span></div>
+        <div class="stat-item"><span class="stat-number">12</span><span class="stat-label">Joueurs au roster NBA</span></div>
+        <div class="stat-item"><span class="stat-number">15</span><span class="stat-label">Joueurs en compétition FIBA</span></div>
+        <div class="stat-item"><span class="stat-number">∞</span><span class="stat-label">Substitutions autorisées</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section style="background:var(--gris-fonce); padding:5rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Roster exemple</div>
+        <h2 class="section-title">Le <span class="outline">5 Majeur</span> Idéal</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="team-grid">
+        <div class="team-member reveal"><div class="member-jersey">30</div><div class="member-name">Stephen Curry</div><div class="member-pos">Meneur (PG)</div><div class="member-num">#30 · GSW</div></div>
+        <div class="team-member reveal"><div class="member-jersey">23</div><div class="member-name">Michael Jordan</div><div class="member-pos">Arrière (SG)</div><div class="member-num">#23 · CHI</div></div>
+        <div class="team-member reveal"><div class="member-jersey">6</div><div class="member-name">LeBron James</div><div class="member-pos">Ailier (SF)</div><div class="member-num">#6 · LAL</div></div>
+        <div class="team-member reveal"><div class="member-jersey">21</div><div class="member-name">Tim Duncan</div><div class="member-pos">Ailier Fort (PF)</div><div class="member-num">#21 · SAS</div></div>
+        <div class="team-member reveal"><div class="member-jersey">34</div><div class="member-name">Shaquille O'Neal</div><div class="member-pos">Pivot (C)</div><div class="member-num">#34 · LAL</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Tactique</div>
+        <h2 class="section-title">Placement sur le <span class="outline">Terrain</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="court-diagram reveal">
+        <svg class="court-svg" viewBox="0 0 700 450" xmlns="http://www.w3.org/2000/svg">
+          <rect width="700" height="450" fill="#1e1e2e" rx="10"/>
+          <rect x="40" y="30" width="620" height="390" fill="rgba(26,42,108,0.15)" stroke="#2d3a6c" stroke-width="2.5" rx="6"/>
+          <line x1="350" y1="30" x2="350" y2="420" stroke="#2d3a6c" stroke-width="2"/>
+          <circle cx="350" cy="225" r="60" fill="none" stroke="#2d3a6c" stroke-width="2"/>
+          <circle cx="350" cy="225" r="8" fill="#c0392b"/>
+          <rect x="40" y="155" width="165" height="140" fill="rgba(192,57,43,0.08)" stroke="#c0392b" stroke-width="1.5"/>
+          <rect x="40" y="185" width="105" height="80" fill="rgba(192,57,43,0.12)" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+          <rect x="495" y="155" width="165" height="140" fill="rgba(192,57,43,0.08)" stroke="#c0392b" stroke-width="1.5"/>
+          <rect x="555" y="185" width="105" height="80" fill="rgba(192,57,43,0.12)" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+          <path d="M 205,155 Q 265,225 205,295" fill="none" stroke="#2d3a6c" stroke-width="1.5"/>
+          <path d="M 495,155 Q 435,225 495,295" fill="none" stroke="#2d3a6c" stroke-width="1.5"/>
+          <path d="M 40,100 Q 310,225 40,350" fill="none" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="5,3"/>
+          <line x1="40" y1="100" x2="90" y2="100" stroke="#f39c12" stroke-width="1.5"/>
+          <line x1="40" y1="350" x2="90" y2="350" stroke="#f39c12" stroke-width="1.5"/>
+          <path d="M 660,100 Q 390,225 660,350" fill="none" stroke="#f39c12" stroke-width="1.5" stroke-dasharray="5,3"/>
+          <line x1="660" y1="100" x2="610" y2="100" stroke="#f39c12" stroke-width="1.5"/>
+          <line x1="660" y1="350" x2="610" y2="350" stroke="#f39c12" stroke-width="1.5"/>
+          <circle cx="72" cy="225" r="14" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+          <line x1="40" y1="225" x2="86" y2="225" stroke="#c0392b" stroke-width="1"/>
+          <circle cx="628" cy="225" r="14" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+          <line x1="660" y1="225" x2="614" y2="225" stroke="#c0392b" stroke-width="1"/>
+          <circle cx="300" cy="290" r="18" fill="#c0392b" opacity="0.9"/>
+          <text x="300" y="294" fill="white" text-anchor="middle" font-size="10" font-weight="bold">PG</text>
+          <circle cx="200" cy="240" r="18" fill="#1a2a6c" opacity="0.9"/>
+          <text x="200" y="244" fill="white" text-anchor="middle" font-size="10" font-weight="bold">SG</text>
+          <circle cx="400" cy="240" r="18" fill="#1a2a6c" opacity="0.9"/>
+          <text x="400" y="244" fill="white" text-anchor="middle" font-size="10" font-weight="bold">SF</text>
+          <circle cx="180" cy="160" r="18" fill="#0d1540" stroke="#c0392b" stroke-width="2"/>
+          <text x="180" y="164" fill="white" text-anchor="middle" font-size="9" font-weight="bold">PF</text>
+          <circle cx="140" cy="200" r="20" fill="#0d1540" stroke="#f39c12" stroke-width="2"/>
+          <text x="140" y="205" fill="#f39c12" text-anchor="middle" font-size="10" font-weight="bold">C</text>
+          <text x="350" y="22" fill="#8a8aa0" text-anchor="middle" font-size="11">← DEMI-TERRAIN DÉFENSIF</text>
+          <text x="350" y="390" fill="#c0392b" text-anchor="middle" font-size="11">ZONE D'ATTAQUE →</text>
+        </svg>
+        <p style="margin-top:1.5rem; color:var(--gris-clair); font-size:0.85rem;">Positionnement typique en attaque demi-terrain. Le PG organise depuis la périphérie, le C et le PF occupent la raquette.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><div class="logo" style="margin-bottom:1rem;"><div class="logo-icon" style="width:36px;height:36px;font-size:18px;">🏀</div><div class="logo-text">Basket<span>World</span></div></div><p class="footer-desc">Votre référence francophone sur le basketball mondial.</p></div>
+        <div class="footer-col"><h4>Navigation</h4><ul><li><a href="index.html">Accueil</a></li><li><a href="legendes.html">Légendes</a></li><li><a href="competitions.html">Compétitions</a></li><li><a href="equipe.html">Équipe</a></li><li><a href="regles.html">Règles</a></li><li><a href="actualites.html">Actualités</a></li></ul></div>
+        <div class="footer-col"><h4>Liens</h4><ul><li><a href="https://www.nba.com" target="_blank">NBA</a></li><li><a href="https://www.fiba.basketball" target="_blank">FIBA</a></li></ul></div>
+        <div class="footer-col"></div>
+      </div>
+      <div class="footer-bottom"><p class="footer-copy">© 2026 <span>BasketWorld</span> — Projet HTML/CSS LTI 1B · ESMT</p></div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() { document.getElementById('nav-menu').classList.toggle('open'); }
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }});
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>

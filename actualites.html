@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Actualités — BasketWorld</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo"><div class="logo-icon">🏀</div><div class="logo-text">Basket<span>World</span></div></div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="legendes.html">Légendes</a></li>
+        <li><a href="competitions.html">Compétitions</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+        <li><a href="regles.html">Règles</a></li>
+        <li><a href="actualites.html" class="active">Actualités</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </header>
+
+  <section class="page-hero" data-title="NEWS">
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb"><a href="index.html">Accueil</a><span class="sep">›</span><span>Actualités</span></div>
+        <h1>Actualités <span style="color:var(--rouge)">Basketball</span></h1>
+        <p style="color:var(--gris-clair); margin-top:1rem; font-size:1.05rem; max-width:550px;">Les dernières nouvelles du monde du basketball — NBA, FIBA, EuroLeague et basketball africain.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">À la une</div>
+        <h2 class="section-title">Dernières <span class="outline">Nouvelles</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="news-featured reveal">
+        <div class="news-main">
+          <img src="national association.jpeg" alt="NBA" class="news-main-img"/>
+          <div class="news-main-body">
+            <div class="news-date">Mars 2026 · NBA</div>
+            <h2 class="news-title">NBA 2025-26 : La Course aux Playoffs s'Intensifie</h2>
+            <p class="news-excerpt">À quelques semaines de la fin de la saison régulière, la lutte pour les 16 places qualificatives est plus serrée que jamais. En Conférence Ouest, les Oklahoma City Thunder, San Antonio Spurs et Houston Rockets sont le top 3 du classement pour le moment alors qu'en Conférence Est les Detroit Pistons, Boston Celtics et New York Knicks dominent.</p>
+          </div>
+        </div>
+        <div class="news-sidebar">
+          <div class="news-small">
+            <img src="FIBA.jpeg" alt="FIBA"/>
+            <div class="news-small-body"><div class="news-date">Mars. 2026 · FIBA</div><div class="news-title">Qualification: L'Afrique en Force aussi bien du coté des hommes que des femmes.</div></div>
+          </div>
+          <div class="news-small">
+            <img src="euro league.jpeg" alt="EuroLeague"/>
+            <div class="news-small-body"><div class="news-date">Mars. 2026 · EuroLeague</div><div class="news-title">Fenerbahçe Beko Domine la Phase Régulière Européenne</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--gris-fonce); padding:5rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Toutes les catégories</div>
+        <h2 class="section-title">Plus d'<span class="outline">Articles</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="Victor.jpeg" alt="Wembanyama" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body">
+            <div class="card-tag">🇫🇷 NBA Draft</div>
+            <div class="card-title">Wembanyama : La Saison de la Confirmation</div>
+            <p class="card-text">À 21 ans, Victor Wembanyama confirme tout le bien qu'on pensait de lui. Avec San Antonio, il tourne à plus de 25 points, 12 rebonds et 4 contres par match cette saison.Cependant la suite de sa saison reste incertaine à cause d'une blessure.</p>
+            <div style="margin-top:1rem; display:flex; gap:0.5rem; align-items:center;"><span class="tag">NBA</span><span class="tag">France</span><span style="margin-left:auto; font-size:0.8rem; color:var(--gris-clair);">Mars. 2026</span></div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="bam.jpeg" alt="Bam Adebayo" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body">
+            <div class="card-tag">NBA</div>
+            <div class="card-title">NBA 2026 : Bam Adebayo, un match exceptionnelle</div>
+            <p class="card-text">Bam Adebayo signe son entrée dans l'histoire de la NBA en devenant le 2e meilleur scoreur dans un match sans prolongations dépassant ainsi Kobe Bryant.Tournant d'habitude à 18 pts par match, il signe une performance incroyable de 83pts avec les Miami Heat.  </p>
+            <div style="margin-top:1rem; display:flex; gap:0.5rem; align-items:center;"><span class="tag">USA</span><span class="tag">NBA</span><span style="margin-left:auto; font-size:0.8rem; color:var(--gris-clair);">Mars. 2026</span></div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="afro basket.jpeg" alt="Sénégal" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body">
+            <div class="card-tag">🇸🇳 Basketball Sénégal</div>
+            <div class="card-title">Les Lions du Sénégal Visent l'AfroBasket 2026</div>
+            <p class="card-text">La sélection nationale masculine du Sénégal prépare activement l'AfroBasket 2026. Avec des joueurs évoluant en Europe et en NBA, les Lions ont tout pour jouer les premiers rôles sur le continent.</p>
+            <div style="margin-top:1rem; display:flex; gap:0.5rem; align-items:center;"><span class="tag">Sénégal</span><span class="tag">FIBA Afrique</span><span style="margin-left:auto; font-size:0.8rem; color:var(--gris-clair);">Mars 2026</span></div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="basket fois.jpeg" alt="3x3" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body">
+            <div class="card-tag">🏙️ 3x3</div>
+            <div class="card-title">Le Basketball 3x3 : L'Explosion du Format Street</div>
+            <p class="card-text">Depuis son introduction aux JO de Tokyo 2020, le basketball 3x3 connaît un succès fulgurant. Plus rapide, plus intense, joué sur demi-terrain en 10 minutes ou 21 points.</p>
+            <div style="margin-top:1rem; display:flex; gap:0.5rem; align-items:center;"><span class="tag">3x3</span><span class="tag">Urban</span><span style="margin-left:auto; font-size:0.8rem; color:var(--gris-clair);">Fév. 2026</span></div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="all star.jpeg" alt="All-Star" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body">
+            <div class="card-tag">⭐ NBA All-Star</div>
+            <div class="card-title">All-Star Weekend 2026 : Un Format Révolutionné</div>
+            <p class="card-text">La NBA a repensé son All-Star Game pour 2026. Finis les équipes Est/Ouest, place à un tournoi en format éliminatoire entre 4 équipes. Le Slam Dunk Contest revient avec de nouveaux participants.</p>
+            <div style="margin-top:1rem; display:flex; gap:0.5rem; align-items:center;"><span class="tag">All-Star</span><span class="tag">NBA</span><span style="margin-left:auto; font-size:0.8rem; color:var(--gris-clair);">Fév. 2026</span></div>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="draft.jpeg" alt="Draft" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body">
+            <div class="card-tag">🌟 Jeunes Talents</div>
+            <div class="card-title">Les 5 Prospects à Suivre pour la Draft 2026</div>
+            <p class="card-text">La Draft NBA 2026 s'annonce exceptionnelle avec cependant une sélection purement américaine comparée aux dernières années.</p>
+            <div style="margin-top:1rem; display:flex; gap:0.5rem; align-items:center;"><span class="tag">Draft</span><span class="tag">Prospects</span><span style="margin-left:auto; font-size:0.8rem; color:var(--gris-clair);">Mars 2026</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:5rem 0; background:var(--bleu-profond);">
+    <div class="container" style="text-align:center;">
+      <div class="reveal">
+        <div class="section-label">Ne ratez rien</div>
+        <h2 class="section-title">Restez <span style="color:var(--rouge)">Connecté</span></h2>
+        <div class="section-divider" style="margin-bottom:2rem;"></div>
+        <p style="color:var(--gris-clair); max-width:450px; margin:0 auto 2rem;">Retrouvez toutes nos actualités basketball, de la NBA au basketball africain, chaque semaine sur BasketWorld.</p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+          <a href="competitions.html" class="btn btn-primary">Voir les Compétitions</a>
+          <a href="legendes.html" class="btn btn-outline">Nos Légendes</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><div class="logo" style="margin-bottom:1rem;"><div class="logo-icon" style="width:36px;height:36px;font-size:18px;">🏀</div><div class="logo-text">Basket<span>World</span></div></div><p class="footer-desc">Votre référence francophone sur le basketball mondial.</p></div>
+        <div class="footer-col"><h4>Navigation</h4><ul><li><a href="index.html">Accueil</a></li><li><a href="legendes.html">Légendes</a></li><li><a href="competitions.html">Compétitions</a></li><li><a href="equipe.html">Équipe</a></li><li><a href="regles.html">Règles</a></li><li><a href="actualites.html">Actualités</a></li></ul></div>
+        <div class="footer-col"><h4>Liens</h4><ul><li><a href="https://www.nba.com" target="_blank">NBA</a></li><li><a href="https://www.fiba.basketball" target="_blank">FIBA</a></li><li><a href="https://www.ffbb.com" target="_blank">FFBB</a></li></ul></div>
+        <div class="footer-col"></div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 <span>BasketWorld</span> — Projet HTML/CSS LTI 1B · ESMT</p>
+        <p class="footer-copy" style="color:var(--rouge);">🏀 Made with passion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() { document.getElementById('nav-menu').classList.toggle('open'); }
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }});
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>

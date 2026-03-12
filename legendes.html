@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Légendes — BasketWorld</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">🏀</div>
+      <div class="logo-text">Basket<span>World</span></div>
+    </div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="legendes.html" class="active">Légendes</a></li>
+        <li><a href="competitions.html">Compétitions</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+        <li><a href="regles.html">Règles</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </header>
+
+  <section class="page-hero" data-title="LÉGENDES">
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb"><a href="index.html">Accueil</a><span class="sep">›</span><span>Légendes</span></div>
+        <h1>Les Légendes du <span style="color:var(--rouge)">Basketball</span></h1>
+        <p style="color:var(--gris-clair); margin-top:1rem; font-size:1.05rem; max-width:500px;">Ces joueurs ont transcendé leur sport. Leurs noms résonnent encore sur tous les parquets du monde.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:3rem 0; background:var(--gris-fonce);">
+    <div class="container">
+      <div class="quote-block reveal">
+        <p class="quote-text">"Talent wins games, but teamwork and intelligence wins championships."</p>
+        <p class="quote-author">— Michael Jordan</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Icônes absolues</div>
+        <h2 class="section-title">Hall of <span class="outline">Fame</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));">
+
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="Michael Jordan.jpeg" alt="Michael Jordan">
+            <div class="player-number">23</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Michael Jordan</div>
+            <div class="player-team">Chicago Bulls · Guard</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">6</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">30.1</span><span class="ps-label">Pts/Match</span></div>
+              <div class="ps-item"><span class="ps-value">14</span><span class="ps-label">All-Stars</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="Lebron James.jpeg" alt="Lebron James">
+            <div class="player-number">6</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">LeBron James</div>
+            <div class="player-team">LA Lakers · Forward</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">4</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">27.2</span><span class="ps-label">Pts/Match</span></div>
+              <div class="ps-item"><span class="ps-value">20</span><span class="ps-label">All-Stars</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="Kobe Bryant.jpeg" alt="Kobe Bryant">
+            <div class="player-number">24</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Kobe Bryant</div>
+            <div class="player-team">LA Lakers · Guard</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">5</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">25.0</span><span class="ps-label">Pts/Match</span></div>
+              <div class="ps-item"><span class="ps-value">18</span><span class="ps-label">All-Stars</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="Magic Johnson.jpeg" alt="Magic Johnson">
+            <div class="player-number">32</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Magic Johnson</div>
+            <div class="player-team">LA Lakers · Point Guard</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">5</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">19.5</span><span class="ps-label">Pts/Match</span></div>
+              <div class="ps-item"><span class="ps-value">11.2</span><span class="ps-label">Passes/Match</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="Larry Bird.jpeg" alt="Larry Bird">
+            <div class="player-number">33</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Larry Bird</div>
+            <div class="player-team">Boston Celtics · Forward</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">3</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">24.3</span><span class="ps-label">Pts/Match</span></div>
+              <div class="ps-item"><span class="ps-value">10.0</span><span class="ps-label">Reb/Match</span></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="Kareem.jpeg" alt="Kareem Abdul-Jabbar">
+            <div class="player-number">33</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Kareem Abdul-Jabbar</div>
+            <div class="player-team">Los Angeles Lakers · Center </div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">6</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">22</span><span class="ps-label">Pts/Match</span></div>
+              <div class="ps-item"><span class="ps-value">19</span><span class="ps-label">All-Star</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="Stephen Curry.jpeg" alt="Stephen Curry">
+            <div class="player-number">30</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Stephen Curry</div>
+            <div class="player-team">Golden State Warriors · PG</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">4</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">24.8</span><span class="ps-label">Pts/Match</span></div>
+              <div class="ps-item"><span class="ps-value">3000+</span><span class="ps-label">3pts inscrits</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="bill.jpeg" alt="Bill Russell">
+            <div class="player-number">6</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Bill Russell </div>
+            <div class="player-team">Boston Celtics · Center</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">11</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">22.5</span><span class="ps-label">Reb/Match</span></div>
+              <div class="ps-item"><span class="ps-value">12</span><span class="ps-label">All-Star</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="player-card reveal">
+          <div class="player-img-container">
+            <img src="wilt.jpeg" alt="Wilt Chamberlain">
+            <div class="player-number">13</div><div class="player-country">🇺🇸</div>
+          </div>
+          <div class="player-info">
+            <div class="player-name">Wilt Chamberlain</div>
+            <div class="player-team"> Philadelphia 76ers · Center</div>
+            <div class="player-stats">
+              <div class="ps-item"><span class="ps-value">2</span><span class="ps-label">Titres NBA</span></div>
+              <div class="ps-item"><span class="ps-value">22.9</span><span class="ps-label">Reb/Match</span></div>
+              <div class="ps-item"><span class="ps-value">13</span><span class="ps-label">All-Star</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--gris-fonce); padding:5rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Au-delà des frontières</div>
+        <h2 class="section-title">Légendes <span class="outline">Internationales</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="Dirk.jpeg" alt="Dirk Nowitzki" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body"><div class="card-tag">🇩🇪 Allemagne</div><div class="card-title">Dirk Nowitzki</div><p class="card-text">Premier Européen MVP de saison NBA (2007). Avec Dallas, il a remporté un titre en 2011 et inscrit 31 560 points en carrière.</p></div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="Tony parker.jpeg" alt="Tony Parker" class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body"><div class="card-tag">🇫🇷 France</div><div class="card-title">Tony Parker</div><p class="card-text">4 titres NBA avec San Antonio, MVP des Finals en 2007. Le Français le plus titré de l'histoire de la NBA.</p></div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img-wrapper"><img src="hakeem.jpeg" alt="Hakeem Olajuwon" srcset=""> class="card-img"/><div class="card-img-overlay"></div></div>
+          <div class="card-body"><div class="card-tag">🇳🇬 Nigeria</div><div class="card-title">Hakeem Olajuwon</div><p class="card-text">"The Dream" — 2 titres NBA (1994, 1995), 12× All-Star, meilleur contreur de l'histoire de la NBA avec 3 830 contres.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:1rem;"><div class="logo-icon" style="width:36px;height:36px;font-size:18px;">🏀</div><div class="logo-text">Basket<span>World</span></div></div>
+          <p class="footer-desc">Votre référence francophone sur le basketball mondial.</p>
+        </div>
+        <div class="footer-col"><h4>Navigation</h4><ul>
+          <li><a href="index.html">Accueil</a></li><li><a href="legendes.html">Légendes</a></li>
+          <li><a href="competitions.html">Compétitions</a></li><li><a href="equipe.html">Équipe</a></li>
+          <li><a href="regles.html">Règles</a></li><li><a href="actualites.html">Actualités</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Liens utiles</h4><ul><li><a href="https://www.nba.com" target="_blank">NBA</a></li><li><a href="https://www.fiba.basketball" target="_blank">FIBA</a></li></ul></div>
+        <div class="footer-col"></div>
+      </div>
+      <div class="footer-bottom"><p class="footer-copy">© 2026 <span>BasketWorld</span> — Projet HTML/CSS LTI 1B · ESMT</p></div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() { document.getElementById('nav-menu').classList.toggle('open'); }
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }});
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>

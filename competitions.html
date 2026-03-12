@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compétitions — BasketWorld</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">🏀</div>
+      <div class="logo-text">Basket<span>World</span></div>
+    </div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="legendes.html">Légendes</a></li>
+        <li><a href="competitions.html" class="active">Compétitions</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+        <li><a href="regles.html">Règles</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <section class="page-hero" data-title="COMPÉTITIONS">
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="breadcrumb">
+          <a href="index.html">Accueil</a>
+          <span class="sep">›</span>
+          <span>Compétitions</span>
+        </div>
+        <h1>Les Grandes <span style="color:var(--rouge)">Compétitions</span></h1>
+        <p style="color:var(--gris-clair); margin-top:1rem; font-size:1.05rem; max-width:550px;">
+          Des Finals NBA aux Jeux Olympiques, découvrez les tournois qui ont façonné l'histoire du basketball.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--gris-fonce); padding:5rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Les plus grandes scènes</div>
+        <h2 class="section-title">Compétitions <span class="outline">Mondiales</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="national association.jpeg" alt="NBA Finals" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🇺🇸 Ligue Professionnelle</div>
+            <div class="card-title">NBA — National Basketball Association</div>
+            <p class="card-text">La ligue de basketball la plus regardée au monde. Fondée en 1946, elle regroupe 30 franchises américaines et canadiennes. Les Finals NBA en juin couronnent le champion annuel.</p>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="wnba.jpeg" alt="WNBA" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🇺🇸 Ligue Professionnelle</div>
+            <div class="card-title">WNBA — Women's National Basketball Association</div>
+            <p class="card-text">La ligue de basketball féminin la plus prestigieuse au monde. Fondée en 1996 sous l'égide de la NBA, elle regroupe 13 franchises américaines. Les Finals WNBA en octobre couronnent chaque année la meilleure équipe de la saison. </p>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="jo.jpeg" alt="Jeux Olympiques" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🥇 Jeux Olympiques</div>
+            <div class="card-title">Basketball aux JO</div>
+            <p class="card-text">Le basketball est au programme olympique depuis 1936 (hommes) et 1976 (femmes). Le "Dream Team" américain de 1992 reste la référence absolue du basketball olympique.</p>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="euro league.jpeg" alt="EuroLeague" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🇪🇺 Europe</div>
+            <div class="card-title">EuroLeague</div>
+            <p class="card-text">La principale compétition de clubs en Europe. Real Madrid, FC Barcelone, CSKA Moscou et Olympiakos dominent l'histoire de cette compétition de très haut niveau.</p>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="Basket.jpeg" alt="AfroBasket" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🌍 Afrique</div>
+            <div class="card-title">AfroBasket — Championnat d'Afrique</div>
+            <p class="card-text">Organisé tous les deux ans par la FIBA Afrique, l'AfroBasket réunit les meilleures nations du continent. Le Nigeria, l'Angola et le Sénégal figurent parmi les nations les plus titrées.</p>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-img-wrapper">
+            <img src="FIBA.jpeg" alt="FIBA World Cup" class="card-img"/>
+            <div class="card-img-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">🌍 Compétition Internationales</div>
+            <div class="card-title">Coupe du Monde FIBA</div>
+            <p class="card-text">Organisée tout les 4 ans, la Coupe du Monde FIBA oppose les meilleures sélections nationales.Les Etats-Unis dominent mais des surprises émergent à chaque édition.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item"><span class="stat-number">78</span><span class="stat-label">Éditions NBA</span></div>
+        <div class="stat-item"><span class="stat-number">19</span><span class="stat-label">Coupes du Monde FIBA</span></div>
+        <div class="stat-item"><span class="stat-number">27</span><span class="stat-label">Titres olympiques USA</span></div>
+        <div class="stat-item"><span class="stat-number">82</span><span class="stat-label">Matchs saison régulière</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Chronologie</div>
+        <h2 class="section-title">Moments <span class="outline">Historiques</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-year">1992 — Barcelone</div>
+            <h3 class="timeline-title">Le Dream Team</h3>
+            <p class="timeline-text">Pour la première fois, les professionnels NBA sont autorisés aux JO. Jordan, Magic, Bird, Barkley, Ewing... Cette équipe reste la plus talentueuse de l'histoire du sport. 12 victoires, +44 points d'écart en moyenne.</p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">1998 — Finals NBA</div>
+            <h3 class="timeline-title">Le Last Shot de Jordan</h3>
+            <p class="timeline-text">Match 6 des Finals face à Utah Jazz. Avec 5,2 secondes à jouer, Jordan écarte Bryon Russell et inscrit le tir le plus célèbre de l'histoire du basketball. Chicago remporte son 6e titre.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-year">2004 — Athènes</div>
+            <h3 class="timeline-title">L'Humiliation Américaine</h3>
+            <p class="timeline-text">L'équipe américaine termine à la 3e place aux JO d'Athènes, battue par Porto Rico (92-73), la Lituanie et l'Argentine. Un tournant décisif pour le basketball mondial.</p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2011 — Finals NBA</div>
+            <h3 class="timeline-title">Dirk et les Mavs Renversent LeBron</h3>
+            <p class="timeline-text">Dallas Mavericks bat le Miami Heat de LeBron, Wade et Bosh en 6 matchs. Dirk Nowitzki inscrit 36 points de la main gauche blessée lors du match 2. Un titre historique.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-year">2016 — Finals NBA</div>
+            <h3 class="timeline-title">Le Comeback de LeBron</h3>
+            <p class="timeline-text">Cleveland Cavaliers, menés 3-1 face aux Warriors, réalisent la remontée la plus épique des Finals. LeBron offre un titre à sa ville natale de Cleveland après 52 ans de disette.</p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2023 — Coupe du Monde FIBA</div>
+            <h3 class="timeline-title">L'Allemagne Sacrée</h3>
+            <p class="timeline-text">Pour la première fois de son histoire, l'Allemagne remporte la Coupe du Monde FIBA aux Philippines, battant la Serbie en finale (83-77). Dennis Schröder est nommé MVP du tournoi.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-year">2024 — Finals NBA</div>
+            <h3 class="timeline-title">Boston Celtics — 18e Titre</h3>
+            <p class="timeline-text">Les Boston Celtics remportent leur 18e titre NBA en battant Dallas Mavericks 4-1 en finale, devenant ainsi la franchise la plus titrée de l'histoire de la ligue, dépassant les Los Angeles Lakers.</p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-empty"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--gris-fonce); padding:5rem 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Tableau d'honneur</div>
+        <h2 class="section-title">Palmarès <span class="outline">NBA</span></h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="reveal" style="overflow-x:auto;">
+        <table class="styled-table">
+          <thead>
+            <tr>
+              <th>Franchise</th>
+              <th>Titres</th>
+              <th>Dernière finale gagnée</th>
+              <th>Conférence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Boston Celtics</td><td><span style="color:var(--or);font-weight:700;">18</span></td><td>2024</td><td>Est</td></tr>
+            <tr><td>LA Lakers</td><td><span style="color:var(--or);font-weight:700;">17</span></td><td>2020</td><td>Ouest</td></tr>
+            <tr><td>Golden State Warriors</td><td>7</td><td>2022</td><td>Ouest</td></tr>
+            <tr><td>Chicago Bulls</td><td>6</td><td>1998</td><td>Est</td></tr>
+            <tr><td>San Antonio Spurs</td><td>5</td><td>2014</td><td>Ouest</td></tr>
+            <tr><td>Miami Heat</td><td>3</td><td>2013</td><td>Est</td></tr>
+            <tr><td>Dallas Mavericks</td><td>1</td><td>2011</td><td>Ouest</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:1rem;">
+            <div class="logo-icon" style="width:36px;height:36px;font-size:18px;">🏀</div>
+            <div class="logo-text">Basket<span>World</span></div>
+          </div>
+          <p class="footer-desc">Votre référence francophone sur le basketball mondial.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="legendes.html">Légendes</a></li>
+            <li><a href="competitions.html">Compétitions</a></li>
+            <li><a href="equipe.html">Équipe</a></li>
+            <li><a href="regles.html">Règles</a></li>
+            <li><a href="actualites.html">Actualités</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="https://www.nba.com" target="_blank">NBA Officiel</a></li>
+            <li><a href="https://www.fiba.basketball" target="_blank">FIBA</a></li>
+            <li><a href="https://www.ffbb.com" target="_blank">FFBB</a></li>
+          </ul>
+        </div>
+        <div class="footer-col"></div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 <span>BasketWorld</span> — Projet HTML/CSS LTI 1B · ESMT</p>
+        <p class="footer-copy" style="color:var(--rouge);">🏀 Made with passion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-menu').classList.toggle('open');
+    }
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+  </script>
+
+</body>
+</html>
